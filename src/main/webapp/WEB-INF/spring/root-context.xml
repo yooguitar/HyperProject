@@ -82,7 +82,7 @@
 	 -->
 	 
 	 <!-- Mapper 인터페이스 스캔 -->
-	 <mybatis-spring:scan base-package="com.kh.hyper.member.model.dao, com.kh.hyper.board.model.dao" />
+	 <mybatis-spring:scan base-package="com.kh.hyper.member.model.dao, com.kh.hyper.board.model.dao, com.kh.hyper.api.model.mapper"/>
 	 
 	 <!-- 트랜잭션 매니저 세팅 -->
 	 <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager" 
