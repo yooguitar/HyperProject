@@ -42,7 +42,7 @@ public class BusanServiceImpl implements BusanService {
 	@Override
 	public String getBusanDetail(int pk) {
 		String requestUrl = "http://apis.data.go.kr/6260000/FoodService/getFoodKr";
-			   requestUrl += "?serviceKey=ElI9%2FMOuIP0qtq%2FWVgG%2F8vBVcXmnts24r6z4GtxQ1lKkjgoBlf4K69EsyiQZOahN8%2FWp%2F%2BIDkzSqVJfsw%2B0D5Q%3D%3D";
+			   requestUrl += "?serviceKey=none";
 			   requestUrl += "&numOfRows=10";
 			   requestUrl += "&pageNo="+1;
 			   requestUrl += "&resultType=json";
