@@ -21,7 +21,7 @@ public class MailTest1 {
 		// 구글 SMTP문서에 포트 587써라 나옴
 		sender.setPort(587);
 		sender.setUsername("kitae1996");
-		sender.setPassword("fcfvosygltjjiqnz");
+		sender.setPassword("pass");
 		
 		// - 옵션설정
 		Properties options = new Properties();
